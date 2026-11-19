@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Legends — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="An offline guide and checklist for all 55 PlayStation 5 trophies of Grand Theft Auto VI, with a roadmap to the platinum.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; 55 trophies</p>
+    <h1>Leonida Legends</h1>
+    <p class="sub">Every GTA VI trophy, with a guide in plain words, a checklist that remembers your progress, and a roadmap to the platinum. Works fully offline.</p>
+    <div class="progress-wrap">
+      <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+      <p id="progress" class="progress-text">0 of 55 earned &middot; 0%</p>
+    </div>
+    <div id="grade-stats" class="grade-stats"></div>
+  </div>
+</header>
+
+<main>
+  <section id="roadmap" class="roadmap">
+    <h2>Roadmap to the platinum</h2>
+    <p class="roadmap-intro">PowerPyx rates the set 4/10 and about 200 hours, with one playthrough and no online trophies. There is no mission replay and no New Game Plus, so keep a manual save at the start of every chapter and one before the final mission.</p>
+    <ol class="steps">
+      <li><strong>Step 1 — Play the story (60–80 hours).</strong> Finish all five chapters and take optional missions as they appear. Scan vehicles and study animals as you travel, meditate at every spot you find, and try each activity once. The only trophy reported as possibly missable is <strong>Positive Mental Attitude</strong>: its Chapter 1 meditation spot can be lost after that chapter.</li>
+      <li><strong>Step 2 — Strangers and side strands.</strong> Finish the eight stranger mission strands, including the final missions for Andy, Kenton, Billy, Randy and Tyrone, and hunt Bret&rsquo;s unique animal.</li>
+      <li><strong>Step 3 — Activities and challenges.</strong> 250 stunts, 20 different race wins, drone races at all 14 locations, gold at all 42 shooting ranges, and 50 of the 80 challenges (70 for the 100% checklist).</li>
+      <li><strong>Step 4 — Collectibles and the map.</strong> 100 WAiNK locations, 100 vehicles discovered, 3 card sets, every meditation spot, and every region of Leonida explored.</li>
+      <li><strong>Step 5 — Robberies, money and 100%.</strong> Five bank vaults, an armored truck, a jewelry store unseen, one illegal operation per gang, $250,000 laundered and $100,000 spent. Then finish the 100% checklist for <strong>A Long Road</strong> and the platinum pops.</li>
+    </ol>
+    <p class="warning">Do not use cheats during a trophy run: PowerPyx reports that turning on a cheat disables trophies, and you cannot save once one is used. Cheats only unlock after the story anyway.</p>
+  </section>
+
+  <section class="controls" aria-label="Filters">
+    <label class="search">Search <input id="search" type="search" placeholder="Trophy name or guide text…"></label>
+    <label>Grade <select id="grade"><option value="all">All grades</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
+    <label>Kind <select id="kind"><option value="all">All kinds</option></select></label>
+    <label class="check"><input id="hide-earned" type="checkbox"> Hide earned</label>
+    <label class="check"><input id="missable-only" type="checkbox"> Missable only</label>
+    <label class="check"><input id="spoilers" type="checkbox" checked> Hide story spoilers</label>
+    <div class="buttons">
+      <button id="export" type="button">Export progress</button>
+      <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
+      <button id="reset" type="button">Reset progress</button>
+    </div>
+  </section>
+
+  <p id="count" class="count"></p>
+  <section id="list" class="list" aria-live="polite"></section>
+
+  <section class="sources">
+    <h2>Sources &amp; notes</h2>
+    <p>Trophy names and descriptions are the official PSN text, taken from Exophase and cross-checked with PSNProfiles and TrueAchievements. Guides on this page are written in our own words. Difficulty, time and missable notes follow PowerPyx&rsquo;s trophy guide and roadmap; Gamerscore values come from the same cross-checked lists. Rockstar has not published an official list, and launch-era details may change as more players finish the game.</p>
+    <ul id="source-list"></ul>
+    <p class="fine">Unofficial fan guide. Not affiliated with Rockstar Games, Sony or PlayStation. Grand Theft Auto and GTA are trademarks of Take-Two Interactive; no Rockstar artwork or logos are used here.</p>
+  </section>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>
